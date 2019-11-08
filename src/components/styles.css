@@ -1,0 +1,15 @@
+.MovieCont{
+    background-color: red;
+}
+
+.elemto{
+    z-index: 1;
+}
+
+.colorLetra{
+    color:#fff;
+}
+
+.estilo-boton-nave {
+    color:#fff !important; 
+}
