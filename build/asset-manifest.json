@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3418690.chunk.css",
-    "main.js": "/static/js/main.21da1357.chunk.js",
-    "main.js.map": "/static/js/main.21da1357.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed4b9687.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed4b9687.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.d02e3980.chunk.js": "/static/js/2.d02e3980.chunk.js",
-    "static/js/2.d02e3980.chunk.js.map": "/static/js/2.d02e3980.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e3bd0ba37ea4e1bf249d686bc20910f5.js": "/precache-manifest.e3bd0ba37ea4e1bf249d686bc20910f5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.e3418690.chunk.css.map": "/static/css/main.e3418690.chunk.css.map"
+    "main.css": "/starwars.nachoreyna/static/css/main.e3418690.chunk.css",
+    "main.js": "/starwars.nachoreyna/static/js/main.3b269e00.chunk.js",
+    "main.js.map": "/starwars.nachoreyna/static/js/main.3b269e00.chunk.js.map",
+    "runtime-main.js": "/starwars.nachoreyna/static/js/runtime-main.7dee12a1.js",
+    "runtime-main.js.map": "/starwars.nachoreyna/static/js/runtime-main.7dee12a1.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/starwars.nachoreyna/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.d02e3980.chunk.js": "/starwars.nachoreyna/static/js/2.d02e3980.chunk.js",
+    "static/js/2.d02e3980.chunk.js.map": "/starwars.nachoreyna/static/js/2.d02e3980.chunk.js.map",
+    "index.html": "/starwars.nachoreyna/index.html",
+    "precache-manifest.da117838943a1d28adbe3376c010689e.js": "/starwars.nachoreyna/precache-manifest.da117838943a1d28adbe3376c010689e.js",
+    "service-worker.js": "/starwars.nachoreyna/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/starwars.nachoreyna/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.e3418690.chunk.css.map": "/starwars.nachoreyna/static/css/main.e3418690.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed4b9687.js",
+    "static/js/runtime-main.7dee12a1.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.d02e3980.chunk.js",
     "static/css/main.e3418690.chunk.css",
-    "static/js/main.21da1357.chunk.js"
+    "static/js/main.3b269e00.chunk.js"
   ]
 }
