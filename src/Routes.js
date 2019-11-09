@@ -1,10 +1,10 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Movie from './components/Movie';
-import ElementMovie from './components/ElementMovie';
-import DetailsNaves from './components/DetailsNaves';
+import Movie from './components/movies/Movie';
+import ElementMovie from './components/naves/ElementNaves';
+import DetailsNaves from './components/naves/DetailsNaves';
 
-
+//Rutas del proyecto
 const Routes = () => {
     return (
         <Switch>

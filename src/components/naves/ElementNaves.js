@@ -1,19 +1,22 @@
 import React, {Component} from 'react';
-import Naves from '../components/Naves';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css';
+import Naves from './Naves';
 import axios from 'axios';
+import '../styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class ElementMovie extends Component {
-    state = {
-    naves: []
+  class ElementMovie extends Component {
+    //Crea un array vacio
+      state = {
+      naves: []
     }
 
-    constructor(props) {
-    super(props);
+    //Obtiene la propiedad del id pasado por la rutas
+      constructor(props) {
+      super(props);
     }
 
-    componentWillMount() {
+      //Genera un componente para la extracción del api con base en el id
+      componentWillMount() {
         console.log('aqui en element Movie');
         const { id } = this.props.match.params;
         const url = `https://swapi.co/api/films/${id}`;
@@ -23,16 +26,15 @@ class ElementMovie extends Component {
             naves: data.starships 
             })
         })
+      }
 
-    }
-
+  //Realiza el render de nuestros datos obtenidos  
   render() {
     return (
-      
         <div className="mt-5 container">
           <div className="row">
           {this.state.naves.map((data) =>(
-              <div className="elemto col-md-12 shadow p-3 mb-5 bg-white rounded animated fadeIn">
+              <div className="elemeto col-md-12 ml-2 mr-2 shadow p-3 mb-5 bg-white rounded animated fadeInDown">
                 <div className="col-md-12">
                     <h1>
                     <Naves nombre={data}></Naves>
@@ -42,7 +44,7 @@ class ElementMovie extends Component {
           </div> 
         </div>
       );
+    }
   }
-}
 
 export default ElementMovie;
