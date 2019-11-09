@@ -8,9 +8,9 @@ import {
 const MovieData = ({ director , episode_id}) => {
     return(
     <div>
-        <p>Episodio: {episode_id}</p>
-        <p>Director: {director}</p>
-        <Link to={`/naves/${episode_id}`}>Naves</Link>
+        <h3>Episodio: {episode_id}</h3>
+        <h3>Director: {director}</h3>
+        <Link className="btn btn-dark" to={`/naves/${episode_id}`}>Ver naves</Link>
     </div>
     );
 

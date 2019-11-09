@@ -26,6 +26,10 @@ class Naves extends Component{
     }
   
     render() {
+        function handleClick(e) {
+            e.preventDefault();
+            alert('Hasta aquí llegaste: Luke Skywalker');
+          }
         const urls = this.state.array.url;
         var cadena = "abcdefghij";
         const arr = this.state.array;
@@ -34,7 +38,7 @@ class Naves extends Component{
               <h4>Nombre de la nave:{arr.name}</h4>
               <h4>Modelo: {arr.model}</h4>
               <h4>Clase: {arr.starship_class}</h4>
-              <h4 className="btn btn-dark"><Link className="estilo-boton-nave" to="/naves-details/">Ver Más</Link></h4>
+              <a href="#" className="btn btn-dark" onClick={handleClick}>Ver más</a>
               </div> 
            
           );

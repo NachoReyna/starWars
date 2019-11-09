@@ -28,7 +28,7 @@ class Movie extends Component {
         {this.state.movies.map((user) => (
             <div className="elemto col-md-12 shadow p-3 mb-5 bg-white rounded animated fadeIn">
             <div className="col-md-12">
-                <h1><MovieTitle nameTitle={user.title}></MovieTitle></h1>
+                <MovieTitle nameTitle={user.title}></MovieTitle>
             </div>
             <div className="col-md-12">
                 <span><MovieData director={user.director} episode_id={user.episode_id}></MovieData></span>
